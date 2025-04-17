@@ -1,0 +1,23 @@
+{
+  "name": "create-webflow-starter",
+  "version": "1.0.0",
+  "description": "A CLI to generate a Webflow starter project with plugin and config",
+  "type": "module",
+  "bin": {
+    "create-webflow-starter": "./bin/index.js"
+  },
+  "keywords": [
+    "vite",
+    "kobono",
+    "webflow",
+    "plugin",
+    "scaffolding",
+    "cli",
+    "starter"
+  ],
+  "author": "Pierre Lovenfosse <hello@meetpilou.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
