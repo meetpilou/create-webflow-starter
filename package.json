@@ -1,6 +1,6 @@
 {
   "name": "@kobonostudio/create-webflow-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to generate a Webflow starter project with plugin and config",
   "type": "module",
   "bin": {
