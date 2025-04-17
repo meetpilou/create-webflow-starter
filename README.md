@@ -15,8 +15,8 @@ A zero-config CLI to initialize a production-ready Webflow + Vite setup with mod
 - ✅ Interactive CLI prompts
 - 🔧 Project scaffolding (`vite.config.js`, `starter.config.js`, `package.json`, etc.)
 - 🧱 Auto-setup:
-  - [`vite-plugin-webflow-bundler`](https://github.com/kobono-studio/vite-plugin-webflow-bundler)
-  - [`vite-plugin-github-deploy`](https://github.com/kobono-studio/vite-plugin-github-deploy)
+  - [`vite-plugin-webflow-bundler`](https://github.com/kobonostudio/vite-plugin-webflow-bundler)
+  - [`vite-plugin-github-deploy`](https://github.com/kobonostudio/vite-plugin-github-deploy)
 - 🔐 SSH & GitHub authentication
 - 🚀 GitHub deployment (public or split repo)
 - 📦 CDN-ready output (jsDelivr compatible)
@@ -49,9 +49,9 @@ You’ll also be guided through authentication using the GitHub CLI (`gh auth lo
 ### Install the CLI
 
 ```bash
-npm install -g @kobono-studio/create-webflow-starter
+npm install -g @kobonostudio/create-webflow-starter
 # or via npx
-npx @kobono-studio/create-webflow-starter
+npx @kobonostudio/create-webflow-starter
 ```
 
 ### Available commands

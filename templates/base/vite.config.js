@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import path from 'path'
 import fs from 'fs'
 
-import webflowBundlerPlugin from '@kobono-studio/vite-plugin-webflow-bundler'
-import githubDeployPlugin from '@kobono-studio/vite-plugin-github-deploy'
+import webflowBundlerPlugin from '@kobonostudio/vite-plugin-webflow-bundler'
+import githubDeployPlugin from '@kobonostudio/vite-plugin-github-deploy'
 
 const isPages = process.env.PAGES === 'true'
 

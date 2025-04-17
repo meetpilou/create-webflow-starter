@@ -213,8 +213,8 @@ function writePackageJson(response, projectPath) {
       globals: '^16.0.0',
       prettier: '^3.5.3',
       '@eslint/js': '^9.24.0',
-      '@kobono-studio/vite-plugin-github-deploy': 'latest',
-      '@kobono-studio/vite-plugin-webflow-bundler': 'latest',
+      '@kobonostudio/vite-plugin-github-deploy': 'latest',
+      '@kobonostudio/vite-plugin-webflow-bundler': 'latest',
     },
   }
 

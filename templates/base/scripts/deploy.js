@@ -2,7 +2,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import githubDeployPlugin from '@kobono-studio/vite-plugin-github-deploy'
+import githubDeployPlugin from '@kobonostudio/vite-plugin-github-deploy'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
