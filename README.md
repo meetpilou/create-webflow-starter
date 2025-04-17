@@ -116,11 +116,8 @@ export default {
     privateRepo: 'source-code',
     branch: 'main',
   },
-  cssOrder: ['reset.css', 'layout.css', 'style.css'], // defines the precise order for the bundled CSS
 }
 ```
-
-> 💡 `cssOrder` is optional. If provided, the plugin will enforce the order of minified CSS in the `bundle.min.css` file.
 
 ---
 
@@ -139,8 +136,6 @@ This setup works perfectly for simple Webflow sites.
 
 ### Advanced CSS Structure
 
-When working with several stylesheets, use `cssOrder` in your config to ensure correct bundling order.
-
 ```bash
 src/
 ├── css/
@@ -150,7 +145,7 @@ src/
 │   └── style.css
 ```
 
-Each file will be minified individually and also merged in the correct order into `bundle.min.css`.
+Each file will be minified individually.
 
 ### Advanced JS: Modular & Page-Based
 
@@ -178,8 +173,8 @@ src/
 
 After running `npm run build` or `npm run build:pages`, your output in `dist/` includes:
 
-- `css/bundle.min.css` — merged + minified CSS
-- `css/*.min.css` — individual minified CSS files (based on `cssOrder`)
+- `css/main.min.css` — main css minified
+- `css/*.min.css` — individual minified CSS files
 - `scripts/main.min.js` — main JS bundle
 - `scripts/pages/*.min.js` — page-specific JS bundles
 - `manifest.json` — mapping for loaders/CDN fallback

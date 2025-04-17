@@ -185,8 +185,7 @@ function writeFlowConfig(response, projectPath) {
       : ''
   }
     branch: '${response.cdnBranch}'
-  },
-  cssOrder: []
+  }
 }`
 
   fs.writeFileSync(path.join(projectPath, 'starter.config.js'), config, 'utf-8')
